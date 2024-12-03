@@ -1,4 +1,4 @@
-# **The Probability of Art and Music\!**
+# **The Probability of Art and Music!**
 # https://alexander-worley.github.io/the-probability-of-art-and-music/
 
 ### ^^^ Click the link above to play with the project! ^^^
@@ -31,7 +31,7 @@
 
 ## The issues I faced:
 
-* I don’t know JavaScript, HTML, or CSS, but I really, really wanted the application to be usable in a browser\!  
+* I don’t know JavaScript, HTML, or CSS, but I really, really wanted the application to be usable in a browser!  
 * Therefore, I spent a lot of time using ChatGPT to help me translate my ideas and fragmented code from what little JavaScript, HTML, and CSS I knew into something usable.  
 * Unfortunately, ChatGPT struggles with writing a lot of code, and my knowledge only took me so far.  
 * As such, there are some bugs in the program that I have been unable to fix, and ChatGPT has also been unable to fix :(
@@ -40,8 +40,8 @@
 
 * After my initial ideas were mostly working, I wanted to take it one step further.  
 * For the music part specifically, picking random notes doesn’t make for very appealing music – especially when multiple distributions are being used at once.  
-* Introducing: Bayesian Reasoning\! In music theory, you can generally predict what notes will come next in a song given the previous notes.  
-* As such, I wanted to devise a system in which (instead of pulling random notes from the distributions), the notes would instead be chosen based on the previous notes\!
+* Introducing: Bayesian Reasoning! In music theory, you can generally predict what notes will come next in a song given the previous notes.  
+* As such, I wanted to devise a system in which (instead of pulling random notes from the distributions), the notes would instead be chosen based on the previous notes!
 
 ## What I would add if I had more time:
 
@@ -50,6 +50,9 @@
 
 ## What I would do differently if I did this project again:
 
-* I would only focus on one thing\!  
+* I would only focus on one thing!  
 * Focusing on art AND music AND Bayesian Reasoning strained me too much given the time I had to work on this project.  
 * If I did this project again, I would instead just focus on one part (probably using Bayesian Reasoning to generate a song given some notes) and polish it much, much more.
+
+# Demonstration Video:
+[<img src="https://img.youtube.com/vi/2kaqhi9mvRs/hqdefault.jpg"/>](https://www.youtube.com/embed/2kaqhi9mvRs)
