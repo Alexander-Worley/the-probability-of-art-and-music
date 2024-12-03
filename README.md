@@ -1,8 +1,10 @@
-# **The Probability of Art and Music\!**  
+# **The Probability of Art and Music\!**
 # https://alexander-worley.github.io/the-probability-of-art-and-music/
-**By: Alexander Worley**
 
-Click the link above to play with the project!
+### ^^^ Click the link above to play with the project! ^^^
+
+### **By: Alexander Worley**
+### Stanford CS 109 Challenge - Autumn 2024
 
 * This project was originally intended to be an exploration into creating art and music from probability distributions.
 
