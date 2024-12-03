@@ -1,0 +1,209 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #ffcccc, #ccffff);
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#left-panel {
+  width: 25%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-right: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+#right-panel {
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+input[type="number"],
+select,
+button,
+input[type="range"] {
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  border: 2px solid #888;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="color"] {
+  padding: 0;
+  margin-top: 5px;
+  border: none;
+  width: 40px;
+  height: 30px;
+  box-sizing: border-content;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#add-distribution-button {
+  background-color: #4caf50;
+}
+
+#generate-button {
+  background-color: #008cba;
+}
+
+#start-button {
+  background-color: #f44336;
+}
+
+#stop-button {
+  background-color: #555555;
+}
+
+#clear-canvas-button {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+#speed-input {
+  width: 100%;
+}
+
+#speed-display {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.distribution-instance {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.distribution-instance label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.parameters label {
+  display: flex;
+  flex-direction: column;
+}
+
+.parameters input {
+  width: 100%;
+}
+
+.distribution-instance select,
+.distribution-instance input[type="number"],
+.distribution-instance input[type="color"] {
+  max-width: 100%;
+}
+
+#art-canvas {
+  border: 2px solid #ccc;
+  display: block;
+  margin: 20px auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.visualizer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.visualizer-container h4 {
+  margin: 5px 0 10px 0;
+  color: #333;
+}
+
+.visualizer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bar-graph {
+  width: 100px;
+  height: 150px;
+  margin-right: 10px;
+  position: relative;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  transform: rotate(270deg);
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.bar-graph .bar {
+  width: 10px;
+  margin-right: 2px;
+  background-color: #888;
+  transition: height 0.3s ease;
+}
+
+.visualizer {
+  position: relative;
+  flex-grow: 1;
+  height: 150px;
+  width: 600px;
+  border: 2px solid #ccc;
+  background-color: #fff8dc;
+  border-radius: 10px;
+}
+
+#music-explanation {
+  margin: 20px;
+  background-color: #fff0f5;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#music-explanation h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+button.active {
+  background-color: #4caf50;
+  color: white;
+}

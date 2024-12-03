@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Probability Distribution Art and Music Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="left-panel">
+        <h2>Distributions</h2>
+        <button id="add-distribution-button">Add Distribution</button>
+        <div id="distributions-container"></div>
+        <button id="generate-button">Generate One Step</button>
+        <button id="start-button">Continuous Generation</button>
+        <button id="stop-button" disabled>Stop</button>
+        <label for="speed-input">Speed (ms between notes):</label>
+        <input type="range" id="speed-input" min="100" max="2000" value="500" />
+        <div id="speed-display">500 ms</div>
+        <label>
+          <input type="checkbox" id="bayesian-toggle" />
+          Enable Bayesian Reasoning
+        </label>
+        <button id="clear-canvas-button">Clear Canvas</button>
+      </div>
+      <div id="right-panel">
+        <h2>Art Canvas</h2>
+        <canvas id="art-canvas" width="600" height="400"></canvas>
+        <h2>Music Visualizer</h2>
+        <div id="visualizers-container"></div>
+      </div>
+    </div>
+    <div id="music-explanation">
+      <h3>How It Works</h3>
+      <p>
+        The application generates random values based on the specified
+        probability distributions. These values are used to create visual art on
+        the canvas and generate corresponding musical notes. The bar graph
+        represents the probability distribution, and the music visualizer
+        displays the notes being played.
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
